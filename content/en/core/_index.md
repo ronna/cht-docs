@@ -6,11 +6,10 @@ description: >
   Technical overview and architecture of CHT Core used to build digital health applications
 ---
 
-This section provides an overview and reference for development of the Core Framework of the Community Health Toolkit (CHT). The Core Framework makes it faster to build full-featured, scalable digital health apps by providing a foundation developers can build on. These apps can support most languages, are offline-first, and work on basic phones (via SMS), smartphones, tablets, and computers.
+The Core Framework of the Community Health Toolkit (CHT) makes it fast and easy to build digital health tools customised to any health system. The Core Framework is an abstract framework which cannot be experienced without a [CHT application]({{ ref="apps" }}).
 
-App developers are able to define health system roles, permissions and reporting hierarchies, and make use of five highly configurable areas of functionality: messaging, task and schedule management, decision support workflows, longitudinal person profiles, and analytics.
+The Core Framework enables all the capabilities of CHT applications and ensures that all CHT applications can scale, can be offline-first, and can support multiple languages. Some aspects of CHT Applications are central to the framework and remain the same in all CHT applications - like a shared user-interface that works seemlessly across desktop computers, tablets, and smartphones. Other aspects of CHT applications are highly configurable, and can be tailored to uniquely enable a broad array of digital health interventions. 
+
+The Core Framework can be used to support the unique needs of a given health system and the work of community health workers, frontline supervisors, facility-based nurses, health system managers, patients and caregivers. Visit the Commuity Health Toolkit website to request a [self-guided demo](https://communityhealthtoolkit.org/contact) of an example CHT Application.
 
 {{% see-also page="apps" %}}
-
-The Core Framework can be used to support the unique needs of a given health system and the work of community health workers, frontline supervisors, facility-based nurses, health system managers, and even patients and caregivers. Visit the Commuity Health Toolkit website to request a [self-guided demo](https://communityhealthtoolkit.org/contact) of an app built with the Core Framework. You can also explore an [overview of the Core Framework]({{< ref "features" >}}) and its key features.
-

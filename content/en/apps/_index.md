@@ -4,20 +4,13 @@ linkTitle: "CHT Applications"
 identifier: "apps"
 weight: 2
 description: >
-  Overview and reference for building digital health apps
+  Overview and reference for building CHT applications
 ---
 
-{{% pageinfo %}}
-This section provides an overview and reference for building digital health applications with CHT Core.
-{{% /pageinfo %}}
+A CHT application is a digital health tool built on top of the [CHT Core Framework]({{ ref="core" }}). CHT applications can be created to support the unique needs of a health system and the various workers within it. To create a digital health tool using the CHT, either build a CHT application or re-use an existing application.
 
-From a technical perspective, developing a custom app begins with writing XForms, JSON, and JavaScript code that configures the Core Framework’s features to meet your organization’s needs. 
+The CHT Core Framework enables the capabilities of CHT applications through its many configurable components. A CHT application _is_ a set of configurations for Core Framework components. The CHT Core Framework and CHT Applications are interdependent - the core cannot run without an application, and an application cannot run outside the core.
 
-The CHT Core Framework allows you to define each element in your app in a modular way, and then specify when and how it should appear for different types of users, without having to modify the underlying framework. Collectively, this customization is referred to as Configuration Code.
+Although the CHT Core Framework provides a lot of flexibile components, other components _are not configurable_. This means that all CHT applications have a set of shared capabilities, attributes, and experiences. For example, all CHT applications share a similar user-interface and share a similar look-and-feel. All CHT applications can be built to scale, can support offline-first experiences, and can support multiple languages.
 
-Developing an app using the Core Framework requires an understanding of:
-- Javascript code and expressions
-- JSON format used to specify configuration
-- XLSForms to setup actions and contacts
-
-This section provides an overview of CHT features, and the reference material for those looking to build applications with CHT Core. If you're looking for more context on the typical end users of CHT apps, you'll find more info in the [CHT Design System]({{< ref "design" >}}).
+This section provides an overview of CHT applications, re-usable reference CHT applications, and reference materials for those building CHT applications.
